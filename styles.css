@@ -178,7 +178,7 @@ a {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    grid-gap: 2vw;
+    grid-gap: 3vw;
 }
 
 .projectCardsCol {
@@ -192,6 +192,12 @@ a {
     width: 30vw;
     height: 40vh;
     border-radius: 1.5rem;
+    transition: transform;
+}
+
+.project-card-img:hover {
+    transform: scale(1.02);
+    cursor: pointer;
 }
 
 /* Art styling */
