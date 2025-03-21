@@ -173,8 +173,25 @@ a {
 }
 
 .projectsContainer {
-    width: 80%;
     display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 2vw;
+}
+
+.projectCardsCol {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 2vw;
+}
+
+.project-card-img {
+    background-color: grey;
+    width: 30vw;
+    height: 40vh;
+    border-radius: 1.5rem;
 }
 
 /* Art styling */
