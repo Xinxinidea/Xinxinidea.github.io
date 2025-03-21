@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet"></link>
+        <link href="https://fonts.googleapis.com/css?family=Fira Sans" rel="stylesheet"></link>
+
+        <link rel="icon" href="./images/penguin-dark.png" type="image/png">
+    </head>
+
+    <body>
+
+        <nav id="nav">
+            <div id="nav-section-left">
+                <button id="toggleLightDark">
+                    <svg class="moon" id="moon" width="2vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#3178A1" class="size-4">
+                        <path class="resize" d="M14.438 10.148c.19-.425-.321-.787-.748-.601A5.5 5.5 0 0 1 6.453 2.31c.186-.427-.176-.938-.6-.748a6.501 6.501 0 1 0 8.585 8.586Z" />
+                    </svg>                  
+                    <svg class="sun" id="sun" width="2vw" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#FFC862" class="size-4">
+                        <path class="resize" d="M8 1a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 8 1ZM10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0ZM12.95 4.11a.75.75 0 1 0-1.06-1.06l-1.062 1.06a.75.75 0 0 0 1.061 1.062l1.06-1.061ZM15 8a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 15 8ZM11.89 12.95a.75.75 0 0 0 1.06-1.06l-1.06-1.062a.75.75 0 0 0-1.062 1.061l1.061 1.06ZM8 12a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 8 12ZM5.172 11.89a.75.75 0 0 0-1.061-1.062L3.05 11.89a.75.75 0 1 0 1.06 1.06l1.06-1.06ZM4 8a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 4 8ZM4.11 5.172A.75.75 0 0 0 5.173 4.11L4.11 3.05a.75.75 0 1 0-1.06 1.06l1.06 1.06Z" />
+                    </svg>
+                </button>
+                <a class="resize" href="#home">Home</a>
+                <a class="resize" href="#projects">Projects</a>
+                <a class="resize" href="#art">Art</a>
+            </div>
+            <div id="nav-section-right">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="#2E2D2D" class="size-4">
+                    <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
+                    <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
+                </svg> 
+            </div>             
+        </nav>
+
+        <div id="home">
+            <img class="penguin" id="penguin-light" src="./images/penguin-light.png"/>
+            <img class="penguin" id="penguin-dark" src="./images/penguin-dark.png" opacity="1"/>
+            <div class="oval" id="oval"></div>
+            <p id="homeTitle">Xinyue Li</p>
+            <p id="homeDescription">CS Undergrad at Georgia Tech</p>
+        </div>
+
+        <div id="projects">
+            <div class="section-title-container-light">
+                <img class="border" id="border-light-left" src="./images/borders-light-left.png"/>
+                <p class="sectionTitle">Projects</p>
+                <img class="border" id="border-light-right" src="./images/borders-light-right.png"/>
+            </div>
+            <div class="section-title-container-dark">
+                <img class="border" id="border-dark-left" src="./images/borders-dark-left.png"/>
+                <p class="sectionTitle">Projects</p>
+                <img class="border" id="border-dark-right" src="./images/borders-dark-right.png"/>
+            </div>
+            <div class="projectsContainer">
+                <div class="projectCardsCol">
+                    <img class="cardImg" src="./images/watercolor-rose-bush.JPG"/>
+                    <img class="cardImg" src="./images/in-the-desert.JPG"/>
+                    <img class="cardImg" src="./images/banana-caution.JPG"/>
+                </div>
+                <div class="projectCardsCol">
+                    <img class="cardImg" src="./images/purple-land-sunset.JPG"/>
+                    <img class="cardImg" src="./images/blue-anxiety-guys.JPG"/>
+                    <img class="cardImg" src="./images/angsty-roses.JPG"/>
+                </div>
+            </div>
+        </div>
+
+        <div id="art">
+            <div class="section-title-container-light">
+                <img class="border" id="border-light-left" src="./images/borders-light-left.png"/>
+                <p class="sectionTitle">Art</p>
+                <img class="border" id="border-light-right" src="./images/borders-light-right.png"/>
+            </div>
+            <div class="section-title-container-dark">
+                <img class="border" id="border-dark-left" src="./images/borders-dark-left.png"/>
+                <p class="sectionTitle">Art</p>
+                <img class="border" id="border-dark-right" src="./images/borders-dark-right.png"/>
+            </div>
+            <div class="artCardsContainer">
+                <div class="artCardsCol">
+                    <img class="cardImg" src="./images/watercolor-rose-bush.JPG"/>
+                    <img class="cardImg" src="./images/in-the-desert.JPG"/>
+                    <img class="cardImg" src="./images/banana-caution.JPG"/>
+                </div>
+                <div class="artCardsCol">
+                    <img class="cardImg" src="./images/purple-land-sunset.JPG"/>
+                    <img class="cardImg" src="./images/blue-anxiety-guys.JPG"/>
+                    <img class="cardImg" src="./images/angsty-roses.JPG"/>
+                </div>
+                <div class="artCardsCol">
+                    <img class="cardImg" src="./images/childhood-home.JPG"/>
+                    <img class="cardImg" src="./images/round-blue-hills-kite.JPG"/>
+                    <img class="cardImg" src="./images/purple-clouds.JPG"/>
+                    <img class="cardImg" src="./images/blue-sky-green-hill.JPG"/>
+                </div>
+            </div>
+        </div>
+
+        <script src="scripts.js"></script> 
+
+    </body>
+    
+</html>
