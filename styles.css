@@ -48,7 +48,7 @@ nav {
     flex-direction: row;
     align-items: center;
     column-gap: 3vw;
-    margin-right: 1.5vw;
+    margin-right: 4vw;
 }
 
 #toggleLightDark {
@@ -62,6 +62,10 @@ nav {
 
 .moon {
     display: block;
+}
+
+.icon-dark {
+    background-color: #D9D9D9;
 }
 
 a {

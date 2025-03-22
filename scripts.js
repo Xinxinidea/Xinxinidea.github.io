@@ -25,6 +25,22 @@ document.getElementById("toggleLightDark").addEventListener("click", () => {
         }
     }
 
+    let social = document.getElementById("social");
+    if (social) {
+        if (social.getAttribute("fill") == "#2E2D2D") {
+            social.setAttribute("fill", "#D9D9D9");
+        } else {
+            social.setAttribute("fill", "#2E2D2D");
+        }
+    }
+
+    let email = document.getElementById("email");
+    if (email.getAttribute("fill") == "#2E2D2D") {
+        email.setAttribute("fill", "#D9D9D9");
+    } else {
+        email.setAttribute("fill", "#2E2D2D");
+    }
+
     let penguinLight = document.getElementById("penguin-light");
     if (penguinLight) {
         if (window.getComputedStyle(penguinLight, null).getPropertyValue("display") == "none") {
