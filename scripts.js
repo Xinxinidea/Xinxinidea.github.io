@@ -41,6 +41,13 @@ document.getElementById("toggleLightDark").addEventListener("click", () => {
         email.setAttribute("fill", "#2E2D2D");
     }
 
+    let github = document.getElementById("github");
+    if (github.getAttribute("fill") == "#2E2D2D") {
+        github.setAttribute("fill", "#D9D9D9");
+    } else {
+        github.setAttribute("fill", "#2E2D2D");
+    }
+
     let penguinLight = document.getElementById("penguin-light");
     if (penguinLight) {
         if (window.getComputedStyle(penguinLight, null).getPropertyValue("display") == "none") {

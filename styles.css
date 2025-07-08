@@ -192,11 +192,12 @@ a {
 }
 
 .project-card-img {
-    background-color: grey;
+    /* background-color: grey; */
     width: 30vw;
     height: 40vh;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     transition: transform;
+    object-fit: cover;
 }
 
 .project-card-img:hover {
@@ -232,7 +233,7 @@ a {
 .cardImg {
     /* transition: transform 0.05s; */
     width: 42vh;
-    object-fit: fixed;
+    object-fit: cover;
 }
 
 /* .cardImg:hover {
